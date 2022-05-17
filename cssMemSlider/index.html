@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider Lego</title>
+</head>
+<body>
+<div class="main">
+    <div class="slider">
+        <input type="radio" id="slideChoice1" name="carousel" value="set" checked>
+        <input type="radio" id="slideChoice2" name="carousel" value="beatles">
+        <input type="radio" id="slideChoice3" name="carousel" value="world">
+        <input type="radio" id="slideChoice4" name="carousel" value="more-lego">
+        <div class="slider__wrapper">
+            <div class="slider__images">
+                <div  class="slider__image"><img src="./images/james-a-molnar-lego-set.jpg" alt="set"></div>
+                <div class="slider__image"><img src="./images/lego-beatles.jpg" alt="beatles"></div>
+                <div class="slider__image"><img src="./images/ken-suarez-key-lego.jpg" alt="key"></div>
+                <div class="slider__image"><img src="./images/glen-carrie-fish.jpg" alt="fish"></div>
+            </div>
+            <div class="slider__text">
+                <div class="slider__text-string" id="string1">Join the ranks of programmers!</div>
+                <div class="slider__text-string" id="string2">Let's go write code!</div>
+                <div class="slider__text-string" id="string3">Well, now you are almost a programmer!</div>
+                <div class="slider__text-string" id="string4">Good luck!</div>
+            </div>
+            <div class="slider__controls">
+                <div class="slider__control">
+                    <label for="slideChoice1">
+                        <div class="slider__control-input"></div>
+                    </label>
+                </div>
+                <div class="slider__control">
+                    <label for="slideChoice2">
+                        <div class="slider__control-input"></div>
+                    </label>
+                </div>
+                <div class="slider__control">
+                    <label for="slideChoice3">
+                        <div class="slider__control-input"></div>
+                    </label>
+                </div>
+                <div class="slider__control">
+                    <label for="slideChoice4">
+                        <div class="slider__control-input"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
